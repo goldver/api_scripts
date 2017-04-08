@@ -51,7 +51,7 @@ curl -i "https://api.github.com/repos/goldver/bash_scripts/keys" \
 -X POST \
 -d @<(cat <<EOF
 	{ 
-	  "title": "octocat@octomac", 
+	  "title": "deploy_key", 
 	  "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDO.... goldver@gmail.com" 
 	}
 EOF
