@@ -2,9 +2,16 @@
 # gist
 curl https://api.github.com/gists/public \
 -H "Authorization: token <my_token>"
+
 # user
 curl -i https://api.github.com/user \
 -H "Authorization: token <my_token>"
+
+# user >> specific fields
+my_mail="mail: "
+curl 'https://api.github.com/user' \
+-H "Authorization: token d058b11038785910fcbb79a4be512331ba28d8c1" | jq '( .name, .email)'
+
 # repos
 curl "https://api.github.com/user/repos?type=owner" \
 -H "Authorization: token <my_token>" \
