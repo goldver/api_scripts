@@ -1,8 +1,9 @@
 api_scripts
 ==================
 
-- pd_api.sh          # script for Pager Duty api
+- pagerduty_api.sh   # script for Pager Duty api
 - github_api.sh      # script for GitHub api
+- sendgrid_api.sh    # script for SendGrid api
 
 Contributing
 ------------
